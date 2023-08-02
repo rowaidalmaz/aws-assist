@@ -7,7 +7,6 @@ import FormField from '@awsui/components-react/form-field';
 import Grid from '@awsui/components-react/grid';
 import Header from '@awsui/components-react/header';
 import SpaceBetween from '@awsui/components-react/space-between';
-// import Select from '@awsui/components-react/select';
 import './App.css';
 import React from 'react';
 
