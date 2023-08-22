@@ -116,71 +116,125 @@ function App() {
                   Typical SageMaker workflow
                     </Box>
 
-                    <Box variant="h3">
-                    <img src="./public/logo512.png" alt="logo" />
-                   {/* <img src={require('./public/logo512.png').default} />  */}
-
-                  
-                    1. Label data
-              
-                   </Box>
+                   <Box>
+                   
+                    <div class="row">
+                     <div class="column left" >
+                     <img src="/label.ico" alt="logo" width="60" height="60"></img>
+                   </div>
+                    <div class="column right">
+                   <p>1. Label data</p>
                    <Box variant="p">
                   
-                    Set up and manage labeling jobs for highly accurate training datasets within 
-                    Amazon SageMaker, using active learning and human labeling. 
-                   </Box>
+                  Set up and manage labeling jobs for highly accurate training datasets within 
+                  Amazon SageMaker, using active learning and human labeling. 
+                 </Box>
 
-                   <Box variant="h3">
-                    2. Build
+                 </div>
+               </div>
               
                    </Box>
-                   <Box variant="p">
                   
-                   Connect to other AWS services and transform data in Amazon SageMaker 
-                   notebooks.                   
-                   </Box>
+  
+                   <Box>
+                   
+                   <div class="row">
+                    <div class="column left" >
+                    <img src="/build.ico" alt="logo" width="60" height="60"></img>
+                  </div>
+                   <div class="column right">
+                  <p>2. Build</p>
+                  <Box variant="p">
+                 
+                  Connect to other AWS services and transform data in Amazon SageMaker 
+                  notebooks.  
+                </Box>
 
-                   <Box variant="h3">
-                    3. Train
-              
-                   </Box>
-                   <Box variant="p">
-                  
-                   Use Amazon SageMaker's algorithms and frameworks, or bring your 
-                   own, for distributed training.
-                   </Box>
+                </div>
+               </div>
+             
+                  </Box>
 
-                   <Box variant="h3">
-                    4. Tune
-              
-                   </Box>
-                   <Box variant="p">
-                  
-                   Amazon SageMaker automatically tunes your model by adjusting 
+
+                  <Box>
+                   
+                   <div class="row">
+                    <div class="column left" >
+                    <img src="/train.ico" alt="logo" width="60" height="60"></img>
+                  </div>
+                   <div class="column right">
+                  <p>3. Train</p>
+                  <Box variant="p">
+                 
+                  Use Amazon SageMaker's algorithms and frameworks, or bring your 
+                  own, for distributed training. 
+                </Box>
+
+                </div>
+               </div>
+             
+                  </Box>
+
+                  <Box>
+                   
+                   <div class="row">
+                    <div class="column left" >
+                    <img src="/tune.ico" alt="logo" width="60" height="60"></img>
+                  </div>
+                   <div class="column right">
+                  <p>4. Tune</p>
+                  <Box variant="p">
+                 
+                  Amazon SageMaker automatically tunes your model by adjusting 
                    multiple combinations of algorithm parameters. 
-                   </Box>
+                </Box>
 
-                   <Box variant="h3">
-                    5. Deploy
-              
-                   </Box>
-                   <Box variant="p">
-                   After training is completed, models can be deployed to Amazon SageMaker 
-                   endpoints, for real-time predictions.
+                </div>
+               </div>
+             
+                  </Box>
 
 
-                   </Box>
 
-                   <Box variant="h3">
-                    6. Discover
-              
-                   </Box>
-                   <Box variant="p">
-                  
-                   Find, buy, and deploy ready-to-use model packages, algorithms, and data 
-                   products in AWS Marketplace.           
-                   </Box>
-                  
+                  <Box>
+                   
+                   <div class="row">
+                    <div class="column left" >
+                    <img src="/deploy.ico" alt="logo" width="60" height="60"></img>
+                  </div>
+                   <div class="column right">
+                  <p> 5. Deploy</p>
+                  <Box variant="p">
+                 
+                  After training is completed, models can be deployed to Amazon SageMaker 
+                  endpoints, for real-time predictions.
+                </Box>
+
+                </div>
+               </div>
+             
+                  </Box>
+
+
+
+                  <Box>
+                   
+                   <div class="row">
+                    <div class="column left" >
+                    <img src="/discover.ico" alt="logo" width="60" height="60"></img>
+                  </div>
+                   <div class="column right">
+                  <p>6. Discover</p>
+                  <Box variant="p">
+                 
+                  Find, buy, and deploy ready-to-use model packages, algorithms, and data 
+                  products in AWS Marketplace.  
+                </Box>
+
+                </div>
+               </div>
+             
+                  </Box>
 
                 </SpaceBetween>
 
