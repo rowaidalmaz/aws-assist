@@ -63,7 +63,7 @@ function App() {
                     /> */}
                   </FormField>
                   
-                  <Button className='buttoncolor' href="https://another-website.com" variant="primary">
+                  <Button className='buttoncolor' href="https://main.dgu8530h7r99s.amplifyapp.com/" variant="primary">
                     Get Started
                   </Button>
                 
