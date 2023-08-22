@@ -102,17 +102,42 @@
  background-color: rgb(255, 0, 0);
 }
 
-/* 
-.custom-home-image__placeholder:before {
-  content: 'X';
-  display: block;
-  background-color: blue;
-  color: awsui.$color-background-container-content;
-  text-align: center;
-  font-size: 400px;
-  line-height: 400px;
-}
- */
 
+ .image {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+img {
+
+height: "200px" !important;
+width: "200px" !important;
+
+color: "white";
+}
+
+
+/* Set additional styling options for the columns */
+.column {
+float: left;
+}
+
+/* Set width length for the left, right and middle columns */
+.left {
+width: 50px;
+}
+
+.right {
+width: 500px;
+padding-left: 10px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
 
 
